@@ -1,0 +1,6 @@
+.teste
+.vscode
+.deleted
+vgcore*
+third_party/
+tmp/*
