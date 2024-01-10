@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
     convs = dict()
 
-    for m in tqdm(timm.list_models()[4:5]):
+    for m in tqdm(timm.list_models()):
 
         model = timm.create_model(m).eval()
         data_config = timm.data.resolve_model_data_config(model)
